@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    width: 100%;
+    height: 80px;
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+   text-align: center;
+   position: static;
+   background-color: rgb(86, 80, 80);
+    box-shadow: 6px 10px 12px rgba(0,0,0,0.5);
+    
+    
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+
+
+}
+.navbar li{
+    list-style: none;
+    margin-left: 2rem;
+}
+.navbar a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    box-sizing: border-box;
+   
+
+}
+.navbar a:hover{
+    padding-bottom: 8px;
+    border-bottom: 3px solid yellow;
+}
+.avbtnn button{
+    margin-right: 3rem;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px;
+    border-radius: 15px;
+    background-color: rgb(10, 233, 196);
+    color:white;
+    border: none;
+    box-shadow: inset -4px -10px -10px rgba(248, 235, 235, 0.8);
+}
+.avbtnn a{
+    text-decoration: none;
+}
+#check{
+    display: none;
+   
+}
+#bar{
+    display: none;
+}
+.carousel{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 3rem;
+    justify-content: space-evenly;
+    background-color: rgba(43, 42, 42, 0.942);
+    
+  
+}
+.car h4{
+    color: white;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+.car h1{
+    color: white;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+.car span{
+    color: aqua;
+    letter-spacing: 4px;
+
+}
+.car h3{
+    padding-top: 1rem;
+    color: white;
+    font-size: 1.25rem;
+
+}
+.car marquee{
+    color: chartreuse;
+}
+.car button{
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+    margin-top: 1rem;
+}
+.car button a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+  
+}
+.car button:hover{
+
+    box-shadow: 10px 16px 22px rgba(0,0,0,0.5);
+}
+.images img{
+    width:500px;
+    height: 400px;
+    border-radius: 5px;
+    
+    box-shadow: inset -6px -12px 16px rgba(248, 235, 235, 0.8),inset -6px -12px 16px rgba(248, 235, 235, 0.8);
+}
+.about{
+    width: 100%;
+    height: auto;
+   position: relative;
+    background-color: rgb(19, 17, 17);
+}
+.aboutselection{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    justify-content: space-evenly;
+    padding: 5em;
+
+}
+.about h1{
+    color: rgb(251, 11, 159);
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    padding-top: 2rem;
+    
+}
+.about span{
+    color: aqua;
+    font-size: 24px;
+    font-weight: 1000;
+}
+.aboutpart p{
+    color:white;
+    text-align: justify;
+    padding: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 3rem;
+    letter-spacing: 1px;
+
+    font-size: 18px;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+
+
+
+}
+.aboutpart marquee{
+    color: aqua;
+}
+.aboutimage img{
+    width: 450px;
+    height: 450px; align-items: center;
+    padding-left: 1rem;
+
+}
+.skills{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 3rem;
+    background-color: black;
+}
+.skillsselection{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    padding: 2rem;
+  
+
+}
+.skill h1{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+.card{
+    width: 350px;
+    height: 200px;
+    background-color: aliceblue;
+    margin: 10px;
+    box-shadow: 10px 16px 24px rgba(0,0,0,0.5),10px 16px 46px rgba(0,0,0,0.5);
+    
+}
+.card:hover{
+    background-color: tomato;
+    color: white;
+}
+
+
+
+.card h1{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.card #html{
+    font-size: 4rem;
+    color: red !important;
+    padding: 2rem;
+}
+.card #css{
+    font-size: 4rem;
+    color: blue !important;
+    padding: 2rem;
+
+
+}
+.card #bootstrap{
+    font-size: 4rem;
+    color: rgb(209, 14, 230) !important;
+    padding: 2rem;
+
+}
+.card #javascript{
+    font-size: 4rem;
+    color: rgb(230, 50, 14) !important;
+    padding: 2rem;
+
+}
+.card #react{
+    font-size: 4rem;
+    color: rgb(97, 219, 251);
+    padding: 2rem;
+
+}
+.card:hover{
+    
+    background-color: white;
+    color: black;
+}
+.mywork{
+    width: 100%;
+    height: auto;
+    background-color: blueviolet;
+}
+.mywork h1{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    color: aqua;
+  
+}
+.work{
+       display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    padding-bottom: 2rem;
+    
+ 
+}
+.work img{
+    margin: 10px;
+    width: 350px;
+    height: 200px;
+   
+}
+.work img:hover{
+    box-sizing: border-box;
+    box-shadow: 10px 14px 20px rgba(0,0,0,0.5),10px 14px 20px rgba(0,0,0,0.5);
+}
+footer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: rgb(56, 56, 56);
+}
+footer h1{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    
+    
+
+}
+.contact{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.information h1{
+    text-align: center;
+    color: white;
+    font: 1.5rem;
+}
+.information label{
+    color: white;
+    font-size: 18px;
+    margin-bottom:10px;
+}
+.information span{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.information address{
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 10px;
+
+
+}
+.form{
+    display: inline-block;
+    text-align: center; 
+    margin-top: 4rem;
+    position: relative;
+
+}
+.fullname{
+    color: white;
+    font-size: 18px;
+    margin-right: 1rem;
+    letter-spacing: 2px;
+}
+.email{
+    color: white;
+    margin-right: 4rem;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.form input{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+textarea{
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    margin-left: 8rem;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+    box-shadow: inset -8px -8px 16px #f7f5f5fc,inset 8px 8px 8px rgb(255, 255, 255);
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    margin-left: 7rem;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    box-shadow: inset -8px -8px 7px rgb(241, 239, 239),inset 8px 8px 7px rgba(255, 255, 255, 0.986);
+
+}
+.btn:hover{
+    background-color: fuchsia;
+    color: white;
+    box-shadow: 6px 8px 16px rgba(0,0,0,0.5),6px 8px 16px rgba(0,0,0,0.5);
+}
+iframe{
+
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.social{
+    text-align: center;
+}
+#facebook{
+    color: #4267B2;
+}
+#youtube{
+    color: #FF0000;
+}
+#instagram {
+    color: #FCAF45;
+}
+#whatsapp{
+    color:#25D366;
+}
+#twitter{
+    color:#1DA1F2 ;
+}
+#github{
+    color:00001f ;
+}
+.social i{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+.copyright{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+   
+}
+.copyright span{
+   
+
+    text-align: center;
+    color: rgb(135, 128, 128);
+    justify-content: center;
+
+}
+
+
+@media screen and (max-width: 850px) {
+    
+    .navbar ul {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 80px;
+        left: -120%;
+        display: block;
+        background-color: black;
+        
+        }
+    .navbar ul li{
+        margin-bottom: 2rem;
+    }
+    
+    #bar{
+        display: block;
+        color: white;
+        font-size: 2rem;
+    }
+    #check:checked~ .navbar ul {
+        left: 0%;
+    }
+    .carousel {
+        display: grid;
+        grid-template-columns: auto;
+
+
+    }
+    
+    .aboutpart p{
+        text-align: justify;
+        padding-left: 1rem;
+    }
+    .images{
+        margin-top: 1rem;
+    }
+    .images img{
+        width: 400px;
+        height: 400px;
+    }
+    .aboutselection{
+        display: grid;
+        grid-template-columns: auto;
+        color: black;
+    }
+    .skillsselection{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .work{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .contact{
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+    textarea{
+        align-items: center;
+        text-align: center;
+        margin-left: 01.5rem;
+
+        margin-right: 2rem;
+    }
+    .btn{
+        text-align: center;
+        margin-right: 6rem;
+    }
+    
+}
